@@ -1,0 +1,11 @@
+{
+  "name": "repro-2121",
+  "private": true,
+  "scripts": {
+    "test": "graphql-inspector diff https://swapi-graphql.netlify.app/.netlify/functions/index https://swapi-graphql.netlify.app/.netlify/functions/index"
+  },
+  "dependencies": {
+    "@graphql-inspector/cli": "latest",
+    "graphql": "latest"
+  }
+}
